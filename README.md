@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# 🏡 Annapurna Badavane - Colony Management Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **React-based Colony Management Website** for "Annapurna Badavane." The site provides features such as community details, security, events, testimonials, a gallery, and a contact form integrated with Web3Forms.
 
-## Available Scripts
+## 🌟 Features
+- 🛡 **24/7 Security**
+- 🌳 **Lush Greenery**
+- 🅿 **Ample Parking**
+- 🎭 **Community Events**
+- 📷 **Gallery Section**
+- 📞 **Contact Form (Web3Forms Integration)**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Installation & Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/JaiMishra25/colony-management.git
+cd colony-management
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### **2️⃣ Install Dependencies**
+```sh
+npm install
+```
 
-### `npm test`
+### **3️⃣ Create a `.env` File (Web3Forms Key)**
+Inside the project root, create a `.env` file and add:
+```sh
+REACT_APP_WEB3FORMS_KEY=your-web3forms-access-key
+```
+Replace `your-web3forms-access-key` with your actual Web3Forms API key.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **4️⃣ Run the Project**
+```sh
+npm start
+```
+The website will be available at **http://localhost:3000/**
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
+```
+📁 colony-management
+│── 📁 public
+│   │── 📁 images   # Store static images here
+│── 📁 src
+│   │── 📁 components   # Reusable components (e.g., ContactForm)
+│   │── 📁 pages        # Main pages (e.g., Home.tsx)
+│   │── 📁 styles       # CSS files
+│── .env               # Web3Forms API Key (not committed)
+│── .gitignore         # Ignored files (e.g., node_modules)
+│── package.json       # Dependencies
+│── README.md          # Documentation
+│── tsconfig.json      # TypeScript configuration
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Technologies Used
+- **React (TypeScript)** - UI framework
+- **Web3Forms** - Contact form handling
+- **CSS** - Styling
+- **Git & GitHub** - Version control
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📬 Contact
+For any issues or contributions, please open a GitHub issue or reach out. 🚀
